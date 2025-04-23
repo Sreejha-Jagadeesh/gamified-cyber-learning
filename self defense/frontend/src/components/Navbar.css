@@ -1,0 +1,38 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Slight transparent white */
+    border: 2px solid black;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .navbar a:last-child {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar a:last-child:hover {
+    background-color: darkred;
+  }
+  
